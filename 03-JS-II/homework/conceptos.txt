@@ -1,0 +1,15 @@
+for es un bucle finito, es decir que realiza una acción cierta cantidad de veces, segun le indiquemos,
+nos sirve para recorrer arrays, para almacenar valores en arrays, etc.
+&& este operador es conocido communmente como AND, y sólo permite ejecutar la acción si las condiciones comparadas son verdaderas.
+    Lo podriamos ver como una multiplicación:
+        donde 1 es true
+              0 es false
+                        0 * 0 = 0; // false
+                        0 * 1 = 0; // false
+                        1 * 0 = 0; // false
+                        1 * 1 = 1; // true
+
+|| este operador es conocido communmente como OR, no es tan estricto como el AND, lo que significa que basta con un elemento true para 
+    cumplir la expresión. 
+ 
+! este operador es conocido communmente como NOT, nos sirve para volver falsos los valores true, y viceversa.
