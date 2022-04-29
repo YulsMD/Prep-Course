@@ -1,0 +1,41 @@
+Variables:
+        Es un contenedor, que almacena el valor de algo que podemos usar más adelante.
+Strings:
+        son bloques de texto, por ejemplo "gato" o "el gato es amarillo", para poder distinguir los strings siempre debemos poner estos
+        bloques entre comillas ("")
+Funciones (argumentos, return)
+        Las funciones son procedimientos que se realizan en un bloque determinado, se identifican por la palabra clave function, después
+        le daremos nombre a esta funcion para poder identificarla cuando la necesitemos, después del nombre usaremos los parentesis 
+        abiertos y cerrados. Finalmente usaremos las llaves abiertas y cerradas.
+        Podemos ver a las funciones como:
+                                            function Nombredelafuncion () //La cabeza de una persona
+                                            { // manos de la persona
+                                              // el cuerpo de la persona
+                                            } // pies de la persona
+                                            //Para que nuestra persona (función) esté correcta y completa no debemos omitir ninguna parte.
+        () Estos parentesis reciben argumentos dentro de la funcion, los argumentos no son mas que variables que contienen valores que pueden
+        ser de utilidad dentro de esa función. 
+        Por ejemplo: function saludo (nombre){
+            console.log('Hola, ${nombre}');
+        }
+        La variable nombre puede contener cualquier string, y nos sirve para saludar por su nombre al usuario.
+        Return nos sirve para regresar valores de expresiones que se han ejecutado dentro de una funcion, esto es más util cuando queremos 
+        regresar valores de variables que solo fueron declaradas dentro de la función.
+Declaraciones if
+        Es una sentencia condicional, que permite evaluar una expresión de tal forma que dependiendo de si se cumple o no lleva a cabo una 
+        acción, podemos tener varios if anidados, es decir un if dentro de otro.
+        Ejemplo: if (edad<18){
+            return "Eres menor de edad";
+        }
+        else {
+            return "Eres mayor de edad";
+        }
+Valores booleanos (true, false)
+        Los valores booleanos sólo nos permiten tener dos casos, falso o verdadero, con ello podemos apoyarnos para optimizar ciertas sentencias
+        del ejemplo anterior
+                            if (edad<18){
+                                return true;
+                                }
+                            else {
+                                return false;
+                                 }
