@@ -1,0 +1,4 @@
+Arrays: Los arrays es un contenedor de tipo lista, aquí podemos almacenar variables que podemos utilizar más adelante, la diferencia entre
+        una variables de un array es que una variable sólo permite almacenar un dato, mientras que los arrays nos permiten guardar muchos
+        datos.
+        
