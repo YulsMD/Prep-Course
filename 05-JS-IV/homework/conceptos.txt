@@ -1,0 +1,30 @@
+Objetos: Es un contenedor de claves y valores, es decir puede contener mucha información sobre una sóla cosa, a diferencia de los arrays
+         los objetos se pueden buscar por sus propiedades, y los arrays deben ser buscados por sus índices numéricos.
+
+            Si se quisiera tener una base de datos con usuarios, edades, etc, utilizando arrays sería un desastre al querer ubicar todos los
+            usuarios, porque habría que recordar en qué indice del arreglo se encuentra guardada esa información, para eso existen los objetos,
+            nos permiten almacenar esos datos en un objeto al que podemos acceder por su propiedad en ese caso puede ser: "usuarios, edades".
+
+
+Propiedades: Las propiedades básicamente son esa indicación que le das al objeto de hacia donde te quieres dirigir dentro de el mismo, 
+             por ejemplo: user.usuarios;
+             le estoy diciendo al compilador que necesito la información que contiene usuarios que se encuentra en el objeto user.
+
+Métodos: Los métodos son las funciones que se realizan dentro de los objetos, estos métodos pueden ser llamados fuera de estos objetos.
+
+Bucle for ... in: Este ciclo función muy similar al ciclo for, la diferencia es que como había mencionado antes, los arreglos y los objetos
+                  tienen indices numéricos y el otro no, por ello el ciclo for funciona únicamente para recorrer los arreglos, pues puede
+                  encontrar el indicador gracias a la variable de recorrido, sin embargo con los objetos no ocurre lo mismo, ya que contienen
+                  propiedades que no pueden ser contadas numéricamente, aquí es donde entra el for ... in;
+                  Puedes recorrer el objeto de acuerdo a su clave:
+
+                    for (let clave in usuario){
+                        console.log(clave);
+                        console.log(usuario[clave]);
+                    }
+
+Notación de puntos vs de corchetes: Son utilizadas para acceder a los objetos, 
+                Notación de puntos: solo funciona con nombres de propiedades que son válidos nombres de identificadores  [Especificaciones] , 
+                                    así que básicamente cualquier nombre que también sea un nombre de variable válido,
+                Notación de corchetes: La notación de corchetes espera una expresión que se evalúa como una cadena (o puede ser forzada a una 
+                                    cadena), por lo que puede usar cualquier secuencia de caracteres como nombre de propiedad.
