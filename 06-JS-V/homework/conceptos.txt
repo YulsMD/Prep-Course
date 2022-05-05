@@ -1,0 +1,5 @@
+Prototype: Los Prototype permiten crear métodos (funciones) que pueden ser invocados por todos los objetos que así lo requieran, de tal
+           forma que se evite un excesivo consumo de memoria al crear los mismos métodos en cada objeto.
+
+Constructors: Los contructores puedes contener objetos que compartan algunas de sus propiedades y métodos (funciones), 
+              estas funciones se distiguen de las demás porque al principio inician con una letra Mayúscula.
